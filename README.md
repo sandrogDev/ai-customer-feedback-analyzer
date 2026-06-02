@@ -55,7 +55,8 @@ Un manager o il proprietario di un e-commerce non ha il tempo di leggere 1.000 r
    .\venv\Scripts\activate
 3. Install the required dependencies:
    pip install google-genai python-dotenv
-4. Create a .env file in the root directory and add your secret Gemini API Key:
-   GEMINI_API_KEY=your_actual_api_key_here
+4. Create a `.env` file in the root directory and add your secret Gemini API Key:
+   ```text
+GEMINI_API_KEY=your_actual_api_key_here
 5. Run the analyzer:
    python analyzer.py
