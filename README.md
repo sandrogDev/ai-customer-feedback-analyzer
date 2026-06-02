@@ -51,12 +51,18 @@ Un manager o il proprietario di un e-commerce non ha il tempo di leggere 1.000 r
 
 1. Clone this repository or download the files.
 2. Activate your Virtual Environment:
-   ```bash
+```bash
    .\venv\Scripts\activate
+   ```
 3. Install the required dependencies:
+```bash
    pip install google-genai python-dotenv
+   ```
 4. Create a `.env` file in the root directory and add your secret Gemini API Key:
-   ```text
-GEMINI_API_KEY=your_actual_api_key_here
+```text
+   GEMINI_API_KEY=your_actual_api_key_here
+   ```
 5. Run the analyzer:
+```bash
    python analyzer.py
+   ```
